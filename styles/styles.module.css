@@ -1,0 +1,35 @@
+.main{
+    margin: auto;
+    width:50%;
+    text-align: center;
+}
+.main>h1{
+    font-weight: 400;
+}
+
+.tile{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:30%;
+    border: 1px solid #c4c4c4;
+    padding: 4%;
+    margin-top: 20px;
+}
+.tile>img{
+    border-radius: 30px;
+}
+.tile>h3{
+    font-size: 28px;
+    font-weight: 300;
+}
+.tile>h4{
+    margin-top: -10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.tile>button:hover{
+    color:#fff;
+    background-color: crimson;
+}
